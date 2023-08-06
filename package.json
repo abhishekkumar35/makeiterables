@@ -1,0 +1,16 @@
+{
+  "name": "@abhishekkumardev/makeiterables",
+  "version": "1.0.0",
+  "description": "make any property of class iterable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iterables",
+    "makeiterable",
+    "classiterable"
+  ],
+  "author": "abhishek <flashtoak@gmail.com> (https://example.com/)",
+  "license": "MIT"
+}
