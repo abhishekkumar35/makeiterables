@@ -1,6 +1,6 @@
 {
   "name": "@abhishekkumardev/makeiterables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "make any property of class iterable",
   "main": "index.js",
   "scripts": {

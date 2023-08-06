@@ -1,11 +1,11 @@
 function makeClassPropertyIterable(classRef, propertyName) {
-  const originalClass = classRef;
+  const customClass = classRef;
   const originalGetter = Object.getOwnPropertyDescriptor(
     classRef.prototype,
     propertyName
   ).get;
 
-  return class extends originalClass {
+  return class extends customClass {
     constructor(...args) {
       super(...args);
     }
